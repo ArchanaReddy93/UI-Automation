@@ -33,6 +33,6 @@ Feature: Restful Booker Platform critical functionalities
     Then click on "Book this room" button for the room "room101"
     When user enter below details for booking
       | Firstname | Lastname | Email          | Phone        | StartDate   | EndDate     |
-      | Test      | Test     | Test@gmail.com | 222222222222 | 05,May 2025 | 06,May 2025 |
+      | Test      | Test     | Test@gmail.com | 222222222222 | 09,May 2025 | 10,May 2025 |
     Then verify "Booking Successful!" message on page
 
